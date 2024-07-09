@@ -51,9 +51,11 @@ header nav a {
     text-decoration: none;
     color: black;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 header nav button {
+    border: 2px solid rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 1.7rem 2.4rem;
     background-color: white;
@@ -100,11 +102,15 @@ header .banner * {
 
 /* ######################## motivation container ############################ */
 
-.motivation-container {
+main {
     width: 90%;
+    margin: auto;
+}
+
+.motivation-container {
     margin: 10rem auto;
     border-radius: 1rem;
-    padding: 10rem;
+    padding: 8rem;
     background-color: rgba(13, 19, 33, 0.02);
 }
 
@@ -124,7 +130,7 @@ header .banner * {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5rem;
+    margin: 3rem;
     border-radius: 1rem;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
 }
@@ -142,7 +148,7 @@ header .banner * {
 }
 
 .items-container .item > * {
-    margin: 5rem;
+    margin: 4.5rem;
 }
 
 .items-container .item h2 {
@@ -168,7 +174,6 @@ header .banner * {
 /* ###################### inspiration section ######################### */
 
 .inspiration-container {
-    width: 90%;
     margin: 10rem auto;
 }
 
@@ -200,4 +205,97 @@ header .banner * {
     display: inline-block;
     margin: 5rem;
     border-radius: 2rem;
+}
+
+/* ####################### current target section ##################### */
+
+.current-target {
+    margin: 10rem auto;
+}
+
+.current-target header {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.current-target header * {
+    margin: 2rem 0;
+}
+
+.current-target .items {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0;
+}
+
+.current-target .items .item {
+    width: 32%;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.current-target .items .item img {
+    width: 20%;
+}
+
+.current-target .items .item a {
+    color: black;
+    font-weight: bold;
+}
+
+.current-target .items .item * {
+    margin: 2rem 0;
+}
+
+.current-target .item:nth-child(1) {
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.current-target .item:nth-child(2) {
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.current-target .item:nth-child(3) {
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* ############################# next target ######################## */
+
+.next-target header {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.next-target header * {
+    margin: 2rem 0;
+}
+
+.next-target .item {
+    border: 1px groove rgba(128, 128, 128, .5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.next-target .item img {
+    width: 10%;
+    object-fit: contain;
+}
+
+
+.next-target .items .item {
+    border-radius: 1rem;
+    padding: 4rem;
+    margin: 3rem 0;
+}
+
+.next-target .items .item a {
+    color: black;
+    font-weight: bold;
+}
+
+.next-target .items .item div * {
+    margin: 2rem;
 }
