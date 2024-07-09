@@ -10,12 +10,14 @@
 
 :root {
     font-size: 62.5%;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono", monospace;    
+    /* font-family: sans-serif; */
     width: 1583px;
 }
 
 h1 {
     font-size: 3.2rem;
+    font-weight: 700;
 }
 
 h2 {
@@ -24,7 +26,8 @@ h2 {
 
 p {
     font-size: 1.6rem;
-    line-height: 2.6rem;
+    line-height: 2.6rem;    
+    color: rgba(13, 19, 33, 0.8);
 }
 
 a {
@@ -142,6 +145,10 @@ header .banner * {
     margin: 5rem;
 }
 
+.items-container .item h2 {
+    color: rgba(13, 19, 33, 0.7);
+}
+
 .items-container .item a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
@@ -156,4 +163,41 @@ header .banner * {
 
 .items-container .item div > * {
     margin: 1.5rem 0;
+}
+
+/* ###################### inspiration section ######################### */
+
+.inspiration-container {
+    width: 90%;
+    margin: 10rem auto;
+}
+
+.inspiration-container .inspiration-details {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.inspiration-container .inspiration-details > * {
+    margin: 2rem;
+}
+
+.inspiration-container .inspiration-details h1:first-child {
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.inspiration-container .inspiration-video {
+    border: 1px solid rgba(128, 128, 128, .5);
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.inspiration-container .inspiration-video video {
+    width: 92%;
+    display: inline-block;
+    margin: 5rem;
+    border-radius: 2rem;
 }
