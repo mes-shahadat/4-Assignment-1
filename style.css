@@ -189,7 +189,7 @@ main {
 }
 
 .inspiration-container .inspiration-details > * {
-    margin: 2rem;
+    margin: 2.5rem;
 }
 
 .inspiration-container .inspiration-details h1:first-child {
@@ -205,8 +205,9 @@ main {
     overflow: hidden;
 }
 
-.inspiration-container .inspiration-video video {
+.inspiration-container .inspiration-video iframe {
     width: 92%;
+    height: 66rem;
     display: inline-block;
     margin: 5rem;
     border-radius: 2rem;
@@ -289,6 +290,9 @@ main {
     object-fit: contain;
 }
 
+.next-target .item div {
+    width: 88%;
+}
 
 .next-target .items .item {
     border-radius: 1rem;
@@ -376,7 +380,7 @@ main {
 }
 
 #footer .social-icons * {
-    margin: 0 1rem;
+    margin: 0 .5rem;
 }
 
 @media screen 
