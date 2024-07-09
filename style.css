@@ -299,3 +299,64 @@ main {
 .next-target .items .item div * {
     margin: 2rem;
 }
+
+
+/* ###################### support section ########################## */
+
+.support-container {
+    position: relative;
+    border-radius: 2rem;
+    margin: 6rem 0;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.support-container .image{
+    width: 100%;
+    height: 100vh;
+    margin-top: -15rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/handshake.jpg");
+}
+
+.support-container .contact-details {
+    width: 60%;
+    margin: 6.5rem auto;
+    text-align: center;
+    position: absolute;
+    top: 28%;
+    left: 35%;
+    transform: translate(-28%, -35%);
+}
+
+.support-container input[type="text"] {
+    width: 80%;
+    height: 6rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: large;
+}
+
+.support-container input[type="text"]:focus {
+    outline: none;
+}
+
+.support-container input[type="submit"] {
+    background-color: white;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 6rem;
+    border: none;
+    border-radius: .5rem;
+}
+
+.support-container form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.support-container .contact-details > * {
+    margin: 3.5rem 0;
+    color: white;
+}
