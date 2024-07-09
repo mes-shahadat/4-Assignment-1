@@ -12,8 +12,26 @@
     font-size: 62.5%;
     font-family: "Azeret Mono", monospace;
     width: 1583px;
-    /* border: 1px solid red; */
 }
+
+h1 {
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+}
+
+a {
+    font-size: 2rem;
+}
+
+/* ################################## header ############################### */
 
 header nav {
     display: flex;
@@ -62,11 +80,9 @@ header .banner p {
     font-size: 1.6rem;
 }
 
-
 header .banner a {
     text-decoration: none;
     color: white;
-    font-size: 2rem;
 }
 
 header .banner button {
@@ -76,5 +92,68 @@ header .banner button {
 }
 
 header .banner * {
-    margin: 3rem 0;
+    margin: 2.5rem 0;
+}
+
+/* ######################## motivation container ############################ */
+
+.motivation-container {
+    width: 90%;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    padding: 10rem;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.motivation-container>div {
+    border-radius: .5rem;
+}
+
+.motivation-container header {
+    text-align: center;
+}
+
+.motivation-container header * {
+    margin: 2.4rem 0;
+}
+
+.items-container .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9), transparent);
+}
+
+.items-container .item.second {
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.9),  transparent);
+}
+
+.items-container .item > div {
+    width: 60%;
+}
+
+.items-container .item > img {
+    width: 25%;
+}
+
+.items-container .item > * {
+    margin: 5rem;
+}
+
+.items-container .item a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.items-container .item button {
+    padding: 1.2rem 2rem;
+    font-weight: bold;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
+}
+
+.items-container .item div > * {
+    margin: 1.5rem 0;
 }
